@@ -1,0 +1,6 @@
+@media print {
+	body > * { -webkit-transform: rotateY(180deg); }
+	body::before {
+		content: 'Based on you wanting to print this document, it looks like you\'re going backwards with technology. We put this document backwards for you too to help.';
+	}
+}

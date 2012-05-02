@@ -1,0 +1,7 @@
+/* Hide all the content, and tell them why */
+@media print {
+	body > * { display: none; }
+	body::after {
+		content: 'This document is already out of date because you printed it. Please stop killing the trees, and consult the URL shown in the footer to access the content instead. There are countless ways of effectively consuming, annotating and sharing digital content.';
+	}
+}
