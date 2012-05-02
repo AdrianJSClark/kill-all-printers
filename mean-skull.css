@@ -1,0 +1,5 @@
+/* http://www.twitter.com/InfinitiesLoop/status/197538861432320000 */
+@media print {
+	body > * { display: none; }
+	body::before { content: url('http://www.makems.com/graphic/mean-skull.gif'); }
+}
